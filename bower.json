@@ -1,0 +1,21 @@
+{
+  "name": "learnexpress",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Dylan Graham <dylan.graham@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/DylanGraham/learnexpress",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
