@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "@types/node": "^7.0.5",
     "express": "^4.14.1"
   },
   "devDependencies": {},
