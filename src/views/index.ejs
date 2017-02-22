@@ -38,10 +38,9 @@
         </div>
         <nav class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li>
-                    <% list.forEach(el => { %>
-                        <li><a><%= el %></a></li>
-                    <% }) %>
+                <% nav.forEach(el => { %>
+                    <li><a href="<%= el.Link %>"><%= el.Text %></a></li>
+                <% }) %>
             </ul>
             <ul class="nav navbar-right navbar-nav">
                 <li class="dropdown">
