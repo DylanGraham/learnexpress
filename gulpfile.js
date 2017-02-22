@@ -29,7 +29,7 @@ gulp.task('inject', () => {
 gulp.task('serve', ['inject'], () => {
     const options = {
         script: 'app.js',
-        delayTime: 1,
+        delayTime: 3,
         env: {
             'PORT': 8000
         },
